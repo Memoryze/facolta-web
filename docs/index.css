@@ -1,5 +1,7 @@
 body {
 	background: #ffffff;
+	color:#000000;
+	font-family: 'Inter', sans-serif;
 }
 nav {
 	padding: 1rem 2rem;
@@ -9,14 +11,14 @@ nav {
 .logo {
 	width: 6rem;
 	align-self: flex-start;
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 main {
 	width: 100%;
 	text-align: center;
 }
 .people {
-	width: 400px;
+	width: 300px;
 	max-width: 70%;
 	align-self: center;
 	display: block;
@@ -26,27 +28,29 @@ main {
 	max-width: 600px;
 	margin: 0 auto;
 }
-.heading {
-}
 .intro {
+	font-weight: lighter;
 }
 .get-started {
 	background-color: #9c27cf;
 	color: #ffffff;
 	border-radius: 5px;
 	padding: 7px 40px;
-	border: none;
-	margin-bottom: 1.5rem;
 	cursor: pointer;
-    font-size: 16px;
+	font-size: 16px;
+	text-decoration: none;
 }
 
 .about-us {
-		background: #f6e0fe;
+	background: #f6e0fe;
 	text-align: start;
 	padding: 1rem 2rem;
-    max-width: 1000px;
-    margin: 0 auto;
+	max-width: 1000px;
+	margin: 0 auto;
+	margin-top: 2rem;
+}
+.about-us p {
+	font-weight: lighter;
 }
 footer {
 	display: flex;
@@ -56,11 +60,12 @@ footer {
 	max-width: 1000px;
 	margin: 0 auto;
 }
-a {
+footer a {
 	cursor: pointer;
 	text-decoration: none;
 	padding-right: 1rem;
 	color: rgb(53, 50, 50);
+	font-weight: lighter;
 }
 
 .links {
@@ -68,8 +73,8 @@ a {
 	justify-content: space-around;
 	padding: 10px;
 }
-footer .logo{
-    margin-top: 15px;
+footer .logo {
+	margin-top: 15px;
 }
 .all-rights {
 	align-items: flex-end;
@@ -83,14 +88,14 @@ footer .logo{
 @media screen and (max-width: 635px) {
 	footer {
 		flex-direction: column;
-        align-items: flex-start;
+		align-items: flex-start;
 	}
 	.links {
-        padding-left: 0;
+		padding-left: 0;
 	}
 	.all-rights {
 		border-left: none;
-        align-self: start;
-       padding: 0;
+		align-self: start;
+		padding: 0;
 	}
 }
