@@ -64,8 +64,8 @@ footer a {
 	cursor: pointer;
 	text-decoration: none;
 	padding-right: 1rem;
-	color: rgb(53, 50, 50);
 	font-weight: lighter;
+	color:#000000;
 }
 
 .links {
@@ -79,11 +79,12 @@ footer .logo {
 .all-rights {
 	align-items: flex-end;
 	justify-self: end;
-	color: rgb(53, 50, 50);
+	color:#000000;
 	align-self: end;
 	padding: 10px;
 	padding-left: 20px;
 	border-left: 1px solid black;
+	font-weight: lighter;
 }
 @media screen and (max-width: 635px) {
 	footer {
