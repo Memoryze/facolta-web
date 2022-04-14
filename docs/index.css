@@ -100,4 +100,7 @@ footer .logo {
 		align-self: start;
 		padding: 0;
 	}
+	.intro-container{
+		max-width: 90%;
+	}
 }
